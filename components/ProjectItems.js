@@ -6,17 +6,17 @@ function ProjectItems() {
   const projects = [
     {
       title: "Assurence",
-      imageUrl: "/Project1.png",
+      imageUrl: "/Project1.jpeg",
       linkUrl: "https://github.com/yassine-ux-dev/Assurence", // Add the appropriate link URL here
     },
     {
       title: "Aqoot Service", // You can change the title for the second project
-      imageUrl: "/Project2.png",
+      imageUrl: "/Project2.jpeg",
       linkUrl: "https://github.com/yassine-ux-dev/Aqoot-Service", // Add the appropriate link URL here
     },
     {
       title: "Cara", // You can change the title for the second project
-      imageUrl: "/project3.png",
+      imageUrl: "/Project3.jpeg",
       linkUrl: "https://github.com/yassine-ux-dev/awesome-frontend-ecommerce.", // Add the appropriate link URL here
     },
   ];
