@@ -278,3 +278,33 @@ p {
 span {
   text-shadow: 0 0 6px rgb(74, 241, 74);
 }
+@media (max-width: 320px) {
+  .name {
+    font-size: 14px;
+    padding-top: 12px;
+  }
+  .p {
+    font-size: 10px;
+  }
+  .bot {
+    height: 30px;
+    width: 150px;
+  }
+  .bot span {
+    font-size: 10px;
+  }
+  .box {
+    background: url(https://scontent.ftun15-1.fna.fbcdn.net/v/t39.30808-6/376569498_3544341069227273_5172521007727476611_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=a5f93a&_nc_ohc=wJj5LBRjhV4Q7kNvgE-4tUe&_nc_zt=23&_nc_ht=scontent.ftun15-1.fna&_nc_gid=AsA0F9fWf-P6QKM3DvtlbWF&oh=00_AYDFtW6a-8MOeA4baAgcAmSF0UwVMKH98X5M9wc_Ww-TNQ&oe=675136E2);
+    background-size: cover; /* Remove -webkit- prefix for better cross-browser support */
+    background-position: center; /* Changed to 'center' for better visibility */
+
+    height: 140px;
+    width: 140px;
+    box-shadow: 10px 5px 5px 5px rgba(230, 228, 228, 0.651);
+    animation: animate 5s ease-in-out infinite;
+    transition: all 1s ease-in-out;
+  }
+  .LINE {
+    font-size: 12px;
+  }
+}
