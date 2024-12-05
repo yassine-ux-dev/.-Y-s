@@ -28,13 +28,13 @@ const About = () => {
           <div className="text-[#00ff00] flex items-center flex-col animate-pulse w-full">
             {" "}
             {/* Added w-full */}
-            <div className="text-lg">
+            <div className="LINE text-lg">
               <b> -------------------------------</b>{" "}
             </div>
             <div className="text-xl tracking-wide py-2 font-bold">
               I&apos;am Enjoying
             </div>
-            <div className="text-lg">
+            <div className="LINE text-lg">
               <b> -------------------------------</b>{" "}
             </div>
           </div>
@@ -68,11 +68,11 @@ const About = () => {
           <div className="text-[#00ff00] flex items-center flex-col animate-pulse w-full">
             {" "}
             {/* Added w-full */}
-            <div className="text-lg">
+            <div className="LINE text-lg">
               <b> -------------------------------</b>{" "}
             </div>
             <div className="text-xl tracking-wide py-2 font-bold">My World</div>
-            <div className="text-lg">
+            <div className="LINE text-lg">
               <b> -------------------------------</b>{" "}
             </div>
           </div>
